@@ -54,10 +54,8 @@ nav ul li{
    margin-right: 40px;
    margin-bottom: 50px;
    margin-top: 30px;
-   
-    
-    
-}
+   cursor: pointer;
+   }
 
 .banner{
     font-size: 40px;
@@ -196,10 +194,39 @@ nav ul li{
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s;
 }
 
-.contact-right button:hover {
-  background-color: #3a36c0;
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  border-top: 1px solid #eee;
 }
+
+.logo {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #4a3aff;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 17px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #888;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: #4a3aff;
+}
+
 
