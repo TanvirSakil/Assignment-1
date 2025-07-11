@@ -20,6 +20,7 @@
 /* Nav styles   */
 nav{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -42,6 +43,7 @@ nav ul li{
 
 }
 .btn-primary{
+  
     font-size: 20px;
     color: white;
     background-color:#4E47FF;
@@ -52,6 +54,7 @@ nav ul li{
    margin-right: 40px;
    margin-bottom: 50px;
    margin-top: 30px;
+   
     
     
 }
@@ -70,6 +73,7 @@ nav ul li{
 
 .action{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 100px;
@@ -115,6 +119,7 @@ nav ul li{
 
 .stats {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   gap: 20px;
 }
@@ -130,3 +135,71 @@ nav ul li{
   color: #555555a5;
   margin: 5px 0 0;
 }
+
+.contact-section {
+  background-color: #f4f7ff;
+  padding: 50px 20px;
+}
+
+.contact-container {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-left h2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-right label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-right button {
+  padding: 12px;
+  background-color: #4a46e8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-right button:hover {
+  background-color: #3a36c0;
+}
+
