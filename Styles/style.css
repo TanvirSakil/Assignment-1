@@ -82,7 +82,7 @@ nav ul li {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 150px;
 
 }
 
@@ -101,7 +101,7 @@ nav ul li {
   background-color: rgba(173, 216, 230, 0.156);
 }
 
-img{
+img {
   border-radius: 50px;
 }
 
